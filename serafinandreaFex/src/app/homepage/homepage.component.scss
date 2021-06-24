@@ -1,0 +1,35 @@
+body{
+    position: relative;
+}
+
+.navbar-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: -webkit-fill-available;
+    height: 10rem;
+}
+
+nav{
+    background-color: #648418!important;
+    img{
+        width: 4rem;
+        margin: 0.5rem;
+    }
+    div{
+        ul{
+            li{
+                a{
+                    color: #fafafa!important;
+                }
+            }
+        }
+    }
+}
+
+.background-container{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    z-index: 1;
+}
